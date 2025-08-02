@@ -26,8 +26,8 @@
 <body>
 
     <div class="container">
-        <h1>Loja de RPG Mágica</h1>
-        <p style="text-align: center;">O Vendedor sorri. "A sorte favorece os corajosos! Tens algum bônus para me mostrar?"</p>
+        <h1>Loja da AEGIS</h1>
+        <p style="text-align: center;">O Vendedor Rogério sorri. "A sorte favorece os corajosos! Tens algum bônus para me mostrar?"</p>
 
         <form method="POST">
             <div class="form-row">
@@ -59,7 +59,7 @@
         {% else %}
             {% if d20_roll is not none and not error_message %}
             <div class="mensagem-vazia">
-                <p>O vendedor coça a cabeça. "Sua sorte foi de {{ sorte_total }}, mas parece que não tenho nada de especial para você hoje."</p>
+                <p>O vendedor Rogério coça a cabeça. "Sua sorte foi de {{ sorte_total }}, mas parece que não tenho nada de especial para você hoje."</p>
             </div>
             {% endif %}
         {% endif %}

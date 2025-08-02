@@ -98,7 +98,7 @@ def loja_rpg():
                 itens_loja = gerar_itens_simples(sorte_total, itens_por_sorte)
             
             if sorte_total > 0 and not itens_loja:
-                mensagem_erro = f"O vendedor procurou em seus estoques, mas por um azar do destino, não encontrou uma boa combinação de itens para a sua sorte de {sorte_total}."
+                mensagem_erro = f"O vendedor Rogério procurou em seus estoques, mas por um azar do destino, não encontrou uma boa combinação de itens para a sua sorte de {sorte_total}."
 
         except (ValueError, TypeError):
             # Fallback em caso de erro inesperado
