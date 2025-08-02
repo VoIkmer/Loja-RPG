@@ -1,0 +1,140 @@
+[
+  {
+    "nome": "Pedra de Amolar Simples",
+    "custo_de_sorte": 1,
+    "custo_do_item": "5 Ouros",
+    "descricao": "Um item básico para manter suas lâminas afiadas."
+  },
+  {
+    "nome": "Maçã Crocante",
+    "custo_de_sorte": 1,
+    "custo_do_item": "3 Ouros",
+    "descricao": "Restaura uma pequena quantidade de vigor. Melhor que nada."
+  },
+  {
+    "nome": "Dente de Goblin da Sorte",
+    "custo_de_sorte": 1,
+    "custo_do_item": "10 Ouros",
+    "descricao": "Muitos aventureiros carregam um como amuleto."
+  },
+  {
+    "nome": "Pena de Grifo",
+    "custo_de_sorte": 2,
+    "custo_do_item": "20 Ouros",
+    "descricao": "Leve e resistente, usada para criar flechas mais precisas."
+  },
+  {
+    "nome": "Fragmento de Escudo de Madeira",
+    "custo_de_sorte": 2,
+    "custo_do_item": "15 Ouros",
+    "descricao": "Um pedaço de um escudo que aguentou uma batalha."
+  },
+  {
+    "nome": "Poção de Cura Menor",
+    "custo_de_sorte": 2,
+    "custo_do_item": "25 Ouros",
+    "descricao": "Um frasco com um líquido vermelho que fecha pequenos ferimentos."
+  },
+  {
+    "nome": "Anel de Cobre Gasto",
+    "custo_de_sorte": 3,
+    "custo_do_item": "40 Ouros",
+    "descricao": "Um anel simples que parece ter um leve brilho mágico."
+  },
+  {
+    "nome": "Erva do Viajante",
+    "custo_de_sorte": 3,
+    "custo_do_item": "35 Ouros",
+    "descricao": "Mascar esta erva ajuda a suportar longas caminhadas."
+  },
+  {
+    "nome": "Pergaminho de Fogo Fraco",
+    "custo_de_sorte": 3,
+    "custo_do_item": "50 Ouros",
+    "descricao": "Invoca uma pequena labareda, útil para acender fogueiras ou... inimigos."
+  },
+  {
+    "nome": "Adaga Cerimonial",
+    "custo_de_sorte": 4,
+    "custo_do_item": "70 Ouros",
+    "descricao": "Não é muito prática para combate, mas possui inscrições arcanas."
+  },
+  {
+    "nome": "Elmo de Couro Batido",
+    "custo_de_sorte": 4,
+    "custo_do_item": "80 Ouros",
+    "descricao": "Um elmo básico que já viu dias melhores, mas ainda protege."
+  },
+  {
+    "nome": "Poção de Agilidade",
+    "custo_de_sorte": 4,
+    "custo_do_item": "90 Ouros",
+    "descricao": "Deixa seus movimentos mais rápidos e fluidos por um curto período."
+  },
+  {
+    "nome": "Botas do Batedor Silencioso",
+    "custo_de_sorte": 5,
+    "custo_do_item": "120 Ouros",
+    "descricao": "Suas solas macias abafam o som dos seus passos."
+  },
+  {
+    "nome": "Amuleto do Olho que Tudo Vê",
+    "custo_de_sorte": 5,
+    "custo_do_item": "130 Ouros",
+    "descricao": "Ajuda a perceber armadilhas e passagens secretas."
+  },
+  {
+    "nome": "Espada Curta de Ferro",
+    "custo_de_sorte": 5,
+    "custo_do_item": "110 Ouros",
+    "descricao": "Uma arma confiável e bem balanceada para qualquer aventureiro."
+  },
+  {
+    "nome": "Manoplas de Força do Ferreiro",
+    "custo_de_sorte": 6,
+    "custo_do_item": "180 Ouros",
+    "descricao": "Aumentam a firmeza da sua pegada em armas pesadas."
+  },
+  {
+    "nome": "Cajado do Aprendiz",
+    "custo_de_sorte": 6,
+    "custo_do_item": "170 Ouros",
+    "descricao": "Um cajado de madeira com um cristal que canaliza magia elemental."
+  },
+  {
+    "nome": "Peitoral de Aço Leve",
+    "custo_de_sorte": 7,
+    "custo_do_item": "250 Ouros",
+    "descricao": "Oferece boa proteção sem sacrificar muito a mobilidade."
+  },
+  {
+    "nome": "Anel da Regeneração Lenta",
+    "custo_de_sorte": 7,
+    "custo_do_item": "260 Ouros",
+    "descricao": "Fecha lentamente seus ferimentos ao longo do tempo."
+  },
+  {
+    "nome": "Manto do Viajante Resistente",
+    "custo_de_sorte": 8,
+    "custo_do_item": "300 Ouros",
+    "descricao": "Um manto pesado que oferece proteção contra o clima e ataques."
+  },
+  {
+    "nome": "Machado de Guerra dos Anões",
+    "custo_de_sorte": 8,
+    "custo_do_item": "320 Ouros",
+    "descricao": "Pesado e brutal, capaz de esmagar armaduras."
+  },
+  {
+    "nome": "Escudo do Cavaleiro de Elite",
+    "custo_de_sorte": 9,
+    "custo_do_item": "400 Ouros",
+    "descricao": "Um escudo de metal adornado com um brasão de uma ordem esquecida."
+  },
+  {
+    "nome": "Arco Longo de Madeira Mágica",
+    "custo_de_sorte": 10,
+    "custo_do_item": "500 Ouros",
+    "descricao": "Feito de uma madeira rara que aumenta a potência e o alcance das flechas."
+  }
+]
