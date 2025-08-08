@@ -1,140 +1,2402 @@
 [
-  {
-    "nome": "Pedra de Amolar Simples",
-    "custo_de_sorte": 1,
-    "custo_do_item": "5 Ouros",
-    "descricao": "Um item básico para manter suas lâminas afiadas."
-  },
-  {
-    "nome": "Maçã Crocante",
-    "custo_de_sorte": 1,
-    "custo_do_item": "3 Ouros",
-    "descricao": "Restaura uma pequena quantidade de vigor. Melhor que nada."
-  },
-  {
-    "nome": "Dente de Goblin da Sorte",
-    "custo_de_sorte": 1,
-    "custo_do_item": "10 Ouros",
-    "descricao": "Muitos aventureiros carregam um como amuleto."
-  },
-  {
-    "nome": "Pena de Grifo",
-    "custo_de_sorte": 2,
-    "custo_do_item": "20 Ouros",
-    "descricao": "Leve e resistente, usada para criar flechas mais precisas."
-  },
-  {
-    "nome": "Fragmento de Escudo de Madeira",
-    "custo_de_sorte": 2,
-    "custo_do_item": "15 Ouros",
-    "descricao": "Um pedaço de um escudo que aguentou uma batalha."
-  },
-  {
-    "nome": "Poção de Cura Menor",
-    "custo_de_sorte": 2,
-    "custo_do_item": "25 Ouros",
-    "descricao": "Um frasco com um líquido vermelho que fecha pequenos ferimentos."
-  },
-  {
-    "nome": "Anel de Cobre Gasto",
-    "custo_de_sorte": 3,
-    "custo_do_item": "40 Ouros",
-    "descricao": "Um anel simples que parece ter um leve brilho mágico."
-  },
-  {
-    "nome": "Erva do Viajante",
-    "custo_de_sorte": 3,
-    "custo_do_item": "35 Ouros",
-    "descricao": "Mascar esta erva ajuda a suportar longas caminhadas."
-  },
-  {
-    "nome": "Pergaminho de Fogo Fraco",
-    "custo_de_sorte": 3,
-    "custo_do_item": "50 Ouros",
-    "descricao": "Invoca uma pequena labareda, útil para acender fogueiras ou... inimigos."
-  },
-  {
-    "nome": "Adaga Cerimonial",
-    "custo_de_sorte": 4,
-    "custo_do_item": "70 Ouros",
-    "descricao": "Não é muito prática para combate, mas possui inscrições arcanas."
-  },
-  {
-    "nome": "Elmo de Couro Batido",
-    "custo_de_sorte": 4,
-    "custo_do_item": "80 Ouros",
-    "descricao": "Um elmo básico que já viu dias melhores, mas ainda protege."
-  },
-  {
-    "nome": "Poção de Agilidade",
-    "custo_de_sorte": 4,
-    "custo_do_item": "90 Ouros",
-    "descricao": "Deixa seus movimentos mais rápidos e fluidos por um curto período."
-  },
-  {
-    "nome": "Botas do Batedor Silencioso",
-    "custo_de_sorte": 5,
-    "custo_do_item": "120 Ouros",
-    "descricao": "Suas solas macias abafam o som dos seus passos."
-  },
-  {
-    "nome": "Amuleto do Olho que Tudo Vê",
-    "custo_de_sorte": 5,
-    "custo_do_item": "130 Ouros",
-    "descricao": "Ajuda a perceber armadilhas e passagens secretas."
-  },
-  {
-    "nome": "Espada Curta de Ferro",
-    "custo_de_sorte": 5,
-    "custo_do_item": "110 Ouros",
-    "descricao": "Uma arma confiável e bem balanceada para qualquer aventureiro."
-  },
-  {
-    "nome": "Manoplas de Força do Ferreiro",
-    "custo_de_sorte": 6,
-    "custo_do_item": "180 Ouros",
-    "descricao": "Aumentam a firmeza da sua pegada em armas pesadas."
-  },
-  {
-    "nome": "Cajado do Aprendiz",
-    "custo_de_sorte": 6,
-    "custo_do_item": "170 Ouros",
-    "descricao": "Um cajado de madeira com um cristal que canaliza magia elemental."
-  },
-  {
-    "nome": "Peitoral de Aço Leve",
-    "custo_de_sorte": 7,
-    "custo_do_item": "250 Ouros",
-    "descricao": "Oferece boa proteção sem sacrificar muito a mobilidade."
-  },
-  {
-    "nome": "Anel da Regeneração Lenta",
-    "custo_de_sorte": 7,
-    "custo_do_item": "260 Ouros",
-    "descricao": "Fecha lentamente seus ferimentos ao longo do tempo."
-  },
-  {
-    "nome": "Manto do Viajante Resistente",
-    "custo_de_sorte": 8,
-    "custo_do_item": "300 Ouros",
-    "descricao": "Um manto pesado que oferece proteção contra o clima e ataques."
-  },
-  {
-    "nome": "Machado de Guerra dos Anões",
-    "custo_de_sorte": 8,
-    "custo_do_item": "320 Ouros",
-    "descricao": "Pesado e brutal, capaz de esmagar armaduras."
-  },
-  {
-    "nome": "Escudo do Cavaleiro de Elite",
-    "custo_de_sorte": 9,
-    "custo_do_item": "400 Ouros",
-    "descricao": "Um escudo de metal adornado com um brasão de uma ordem esquecida."
-  },
-  {
-    "nome": "Arco Longo de Madeira Mágica",
-    "custo_de_sorte": 10,
-    "custo_do_item": "500 Ouros",
-    "descricao": "Feito de uma madeira rara que aumenta a potência e o alcance das flechas."
-  }
+    {
+        "nome": "Adaga Enferrujada",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.485,42"
+    },
+    {
+        "nome": "Arco de Madeira Simples",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 4.069,35"
+    },
+    {
+        "nome": "Machado de Pedreiro",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.245,77"
+    },
+    {
+        "nome": "Espada Curta de Bronze",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.831,02"
+    },
+    {
+        "nome": "Cajado de Salgueiro",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.761,49"
+    },
+    {
+        "nome": "Escudo de Vime",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.605,68"
+    },
+    {
+        "nome": "Elmo de Couro",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.182,04"
+    },
+    {
+        "nome": "Peitoral de Pano Grosso",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.981,44"
+    },
+    {
+        "nome": "Botas de Couro Gasto",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.739,71"
+    },
+    {
+        "nome": "Anel de Ferro",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.573,07"
+    },
+    {
+        "nome": "Amuleto de Osso Esculpido",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.851,38"
+    },
+    {
+        "nome": "Cinto de Tecido Cru",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.321,52"
+    },
+    {
+        "nome": "Luvas de Pano",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.653,14"
+    },
+    {
+        "nome": "Lança de Madeira",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.785,79"
+    },
+    {
+        "nome": "Maça de Ferro",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.904,81"
+    },
+    {
+        "nome": "Martelo de Ferreiro",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.528,55"
+    },
+    {
+        "nome": "Faca de Caça",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.951,13"
+    },
+    {
+        "nome": "Besta de Carvalho",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.918,43"
+    },
+    {
+        "nome": "Gema de Cristal Bruto",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.387,61"
+    },
+    {
+        "nome": "Pergaminho de Couro",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 412,09"
+    },
+    {
+        "nome": "Cordeiro Assado",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 215,35"
+    },
+    {
+        "nome": "Peixe Seco",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.764,97"
+    },
+    {
+        "nome": "Saco de Moedas Leves",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.438,74"
+    },
+    {
+        "nome": "Algemas de Ferro",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.333,35"
+    },
+    {
+        "nome": "Lanterna de Óleo",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 336,26"
+    },
+    {
+        "nome": "Balde de Madeira",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.850,23"
+    },
+    {
+        "nome": "Corda de Cânhamo",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.877,28"
+    },
+    {
+        "nome": "Gancho de Escalada",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.716,27"
+    },
+    {
+        "nome": "Espada de Treino",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.000,65"
+    },
+    {
+        "nome": "Machadinha de Lenhador",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.617,03"
+    },
+    {
+        "nome": "Capuz de Pano Escuro",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.131,57"
+    },
+    {
+        "nome": "Túnica Simples",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.682,93"
+    },
+    {
+        "nome": "Calças de Pescador",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.690,92"
+    },
+    {
+        "nome": "Sandálias de Couro",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.028,20"
+    },
+    {
+        "nome": "Brincos de Cobre",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.641,68"
+    },
+    {
+        "nome": "Colar de Dentes de Animal",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.374,26"
+    },
+    {
+        "nome": "Bolsa de Pano",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.963,49"
+    },
+    {
+        "nome": "Frasco Vazio",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 135,19"
+    },
+    {
+        "nome": "Pão Duro",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.598,88"
+    },
+    {
+        "nome": "Queijo de Cabra",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.609,67"
+    },
+    {
+        "nome": "Caneca de Madeira",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.244,77"
+    },
+    {
+        "nome": "Bússola Estragada",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.685,25"
+    },
+    {
+        "nome": "Pedra de Afiar",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.782,71"
+    },
+    {
+        "nome": "Vela de Cera de Abelha",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.323,36"
+    },
+    {
+        "nome": "Sementes de Ervas",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 4.166,98"
+    },
+    {
+        "nome": "Ração de Viagem",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.826,84"
+    },
+    {
+        "nome": "Anel de Ossos de Peixe",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.706,12"
+    },
+    {
+        "nome": "Martelo de Batalha de Prata",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.796,34"
+    },
+    {
+        "nome": "Espada Longa de Ferro",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.126,80"
+    },
+    {
+        "nome": "Adaga de Osso",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.243,48"
+    },
+    {
+        "nome": "Arco de Caça",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.082,47"
+    },
+    {
+        "nome": "Cajado de Olmo",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.640,23"
+    },
+    {
+        "nome": "Escudo de Carapaça",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.738,34"
+    },
+    {
+        "nome": "Elmo de Bronze",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.040,07"
+    },
+    {
+        "nome": "Peitoral de Couro Batido",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 4.118,22"
+    },
+    {
+        "nome": "Botas de Andarilho",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.106,10"
+    },
+    {
+        "nome": "Anel de Cobre",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.558,44"
+    },
+    {
+        "nome": "Amuleto de Madeira",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.629,66"
+    },
+    {
+        "nome": "Cinto de Couro Curto",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.260,68"
+    },
+    {
+        "nome": "Luvas de Couro Fino",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 4.149,60"
+    },
+    {
+        "nome": "Lança de Batalha",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.317,36"
+    },
+    {
+        "nome": "Maça de Couro",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.594,66"
+    },
+    {
+        "nome": "Faca de Arremesso",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.709,44"
+    },
+    {
+        "nome": "Gema de Quartzo",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.807,92"
+    },
+    {
+        "nome": "Pergaminho de Papiro",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 380,76"
+    },
+    {
+        "nome": "Garrafa de Vinho",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.290,98"
+    },
+    {
+        "nome": "Queijo de ovelha",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.904,19"
+    },
+    {
+        "nome": "Maçã Podre",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.367,39"
+    },
+    {
+        "nome": "Bússola de latão",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.903,33"
+    },
+    {
+        "nome": "Pedra de toque",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.951,37"
+    },
+    {
+        "nome": "Vela de sebo",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.365,08"
+    },
+    {
+        "nome": "Sementes de flores",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.610,81"
+    },
+    {
+        "nome": "Ração de cavalo",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.785,42"
+    },
+    {
+        "nome": "Anel de couro",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.568,94"
+    },
+    {
+        "nome": "Martelo de ferro forjado",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.457,65"
+    },
+    {
+        "nome": "Espada longa enferrujada",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.083,51"
+    },
+    {
+        "nome": "Adaga quebrada",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.745,39"
+    },
+    {
+        "nome": "Arco curto",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.520,99"
+    },
+    {
+        "nome": "Cajado de galho",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.357,88"
+    },
+    {
+        "nome": "Escudo de junco",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.523,50"
+    },
+    {
+        "nome": "Elmo de tecido",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.199,89"
+    },
+    {
+        "nome": "Peitoral de couro fino",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.681,14"
+    },
+    {
+        "nome": "Botas de couro gastas",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.395,36"
+    },
+    {
+        "nome": "Anel de madeira",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.298,55"
+    },
+    {
+        "nome": "Amuleto de concha",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.544,56"
+    },
+    {
+        "nome": "Cinto de cinto",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.370,87"
+    },
+    {
+        "nome": "Luvas de malha",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.536,52"
+    },
+    {
+        "nome": "Lança de pesca",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.789,08"
+    },
+    {
+        "nome": "Maça de madeira",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.715,70"
+    },
+    {
+        "nome": "Faca de cozinha",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 4.009,64"
+    },
+    {
+        "nome": "Gema de pedra",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.909,52"
+    },
+    {
+        "nome": "Pergaminho enrolado",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 234,45"
+    },
+    {
+        "nome": "Garrafa de água",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.536,16"
+    },
+    {
+        "nome": "Uvas frescas",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.291,57"
+    },
+    {
+        "nome": "Morango maduro",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.254,29"
+    },
+    {
+        "nome": "Bússola de ferro",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.908,13"
+    },
+    {
+        "nome": "Pedra de amolar",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.708,11"
+    },
+    {
+        "nome": "Vela de cera de abelha",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.541,08"
+    },
+    {
+        "nome": "Sementes de frutas",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.521,76"
+    },
+    {
+        "nome": "Ração de rato",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.645,57"
+    },
+    {
+        "nome": "Anel de pedra",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.959,68"
+    },
+    {
+        "nome": "Martelo de carpinteiro",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.482,97"
+    },
+    {
+        "nome": "Espada longa de ferro",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.603,83"
+    },
+    {
+        "nome": "Adaga de metal",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.215,20"
+    },
+    {
+        "nome": "Arco longo",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.636,48"
+    },
+    {
+        "nome": "Cajado de galhos",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.007,09"
+    },
+    {
+        "nome": "Escudo de tábuas",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.923,38"
+    },
+    {
+        "nome": "Elmo de metal",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.691,49"
+    },
+    {
+        "nome": "Peitoral de metal",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.568,57"
+    },
+    {
+        "nome": "Botas de metal",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.724,56"
+    },
+    {
+        "nome": "Anel de metal",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.303,11"
+    },
+    {
+        "nome": "Amuleto de metal",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.943,33"
+    },
+    {
+        "nome": "Cinto de metal",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.469,27"
+    },
+    {
+        "nome": "Luvas de metal",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.787,27"
+    },
+    {
+        "nome": "Lança de metal",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 4.186,55"
+    },
+    {
+        "nome": "Maça de metal",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.131,69"
+    },
+    {
+        "nome": "Faca de metal",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.931,58"
+    },
+    {
+        "nome": "Gema de metal",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.431,26"
+    },
+    {
+        "nome": "Pergaminho de metal",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 308,51"
+    },
+    {
+        "nome": "Garrafa de metal",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.311,11"
+    },
+    {
+        "nome": "Pão fresco",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.991,23"
+    },
+    {
+        "nome": "Queijo de vaca",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.712,40"
+    },
+    {
+        "nome": "Pera verde",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.616,66"
+    },
+    {
+        "nome": "Bússola de bronze",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.572,52"
+    },
+    {
+        "nome": "Pedra de toque",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.332,22"
+    },
+    {
+        "nome": "Vela de sebo",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.086,44"
+    },
+    {
+        "nome": "Sementes de vegetais",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.481,44"
+    },
+    {
+        "nome": "Ração de coelho",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.450,57"
+    },
+    {
+        "nome": "Anel de osso",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.770,93"
+    },
+    {
+        "nome": "Martelo de demolição",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.707,74"
+    },
+    {
+        "nome": "Espada larga de ferro",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.927,81"
+    },
+    {
+        "nome": "Adaga de caçador",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.412,34"
+    },
+    {
+        "nome": "Arco recurvo",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.773,50"
+    },
+    {
+        "nome": "Cajado de carvalho",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.062,30"
+    },
+    {
+        "nome": "Escudo de escamas",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 4.075,41"
+    },
+    {
+        "nome": "Elmo de escamas",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.398,85"
+    },
+    {
+        "nome": "Peitoral de escamas",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.720,44"
+    },
+    {
+        "nome": "Botas de escamas",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.376,36"
+    },
+    {
+        "nome": "Anel de escamas",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.471,76"
+    },
+    {
+        "nome": "Amuleto de escamas",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 4.056,75"
+    },
+    {
+        "nome": "Cinto de escamas",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.883,54"
+    },
+    {
+        "nome": "Luvas de escamas",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.702,76"
+    },
+    {
+        "nome": "Lança de escamas",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.754,77"
+    },
+    {
+        "nome": "Maça de escamas",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.403,16"
+    },
+    {
+        "nome": "Faca de escamas",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.364,30"
+    },
+    {
+        "nome": "Gema de escamas",
+        "custo_de_sorte": 2,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 2.085,82"
+    },
+    {
+        "nome": "Pergaminho de escamas",
+        "custo_de_sorte": 3,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 258,47"
+    },
+    {
+        "nome": "Garrafa de escamas",
+        "custo_de_sorte": 1,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 1.635,99"
+    },
+    {
+        "nome": "Bife cru",
+        "custo_de_sorte": 4,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.373,58"
+    },
+    {
+        "nome": "Batata assada",
+        "custo_de_sorte": 5,
+        "raridade": "Comum",
+        "cor": "cinza",
+        "descricao": "Um item de raridade Comum com grande potencial.",
+        "custo_do_item": "R$ 3.660,50"
+    },
+    {
+        "nome": "Espada do Vento Sibilante",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 42.721,86"
+    },
+    {
+        "nome": "Anel do Sussurro",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 38.327,95"
+    },
+    {
+        "nome": "Armadura de Placas do Guardião",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 48.409,00"
+    },
+    {
+        "nome": "Cajado do Invocador de Chamas",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 49.581,13"
+    },
+    {
+        "nome": "Amuleto do Rio da Vida",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 39.614,49"
+    },
+    {
+        "nome": "Arco do Caçador Noturno",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 51.665,28"
+    },
+    {
+        "nome": "Manoplas de Aço Forjado",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 50.977,72"
+    },
+    {
+        "nome": "Botas da Sombra Veloz",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 46.683,97"
+    },
+    {
+        "nome": "Escudo da Sentinela de Pedra",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 48.175,82"
+    },
+    {
+        "nome": "Machado de Batalha do Desafio",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 41.306,32"
+    },
+    {
+        "nome": "Lâmina da Lua Minguante",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 37.846,13"
+    },
+    {
+        "nome": "Elmo do Golem de Pedra",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 49.717,70"
+    },
+    {
+        "nome": "Cinto do Andarilho do Deserto",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 47.425,45"
+    },
+    {
+        "nome": "Luvas do Tecedor de Fios",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 47.053,13"
+    },
+    {
+        "nome": "Lança do Falcão",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 48.988,65"
+    },
+    {
+        "nome": "Maça do Trovejar",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 47.539,13"
+    },
+    {
+        "nome": "Adaga da Visão",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 40.575,67"
+    },
+    {
+        "nome": "Faca do Açougueiro Maldito",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 58.035,50"
+    },
+    {
+        "nome": "Gema da Coroa",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 53.187,85"
+    },
+    {
+        "nome": "Pergaminho dos Segredos",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 4.349,37"
+    },
+    {
+        "nome": "Cetro do Rei Esquecido",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 54.236,56"
+    },
+    {
+        "nome": "Medalhão do Mago do Vento",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 50.191,03"
+    },
+    {
+        "nome": "Máscara do Cavaleiro Fantasma",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 37.518,55"
+    },
+    {
+        "nome": "Espada da Ruptura",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 51.165,09"
+    },
+    {
+        "nome": "Machado da Fúria",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 46.941,96"
+    },
+    {
+        "nome": "Arco do Ceifador",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 40.060,95"
+    },
+    {
+        "nome": "Cajado da Conjuradora",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 49.684,22"
+    },
+    {
+        "nome": "Escudo da Rocha",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 46.906,72"
+    },
+    {
+        "nome": "Elmo da Fera",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 43.922,71"
+    },
+    {
+        "nome": "Peitoral do Mártir",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 47.042,93"
+    },
+    {
+        "nome": "Botas do Andarilho das Estrelas",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 50.757,60"
+    },
+    {
+        "nome": "Anel do Guardião",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 38.371,47"
+    },
+    {
+        "nome": "Amuleto da Harmonia",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 47.354,14"
+    },
+    {
+        "nome": "Cinto do Bárbaro",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 43.248,51"
+    },
+    {
+        "nome": "Luvas da Proteção",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 38.405,38"
+    },
+    {
+        "nome": "Lança da Vingança",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 48.705,46"
+    },
+    {
+        "nome": "Maça da Destruição",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 52.042,70"
+    },
+    {
+        "nome": "Adaga da Sombra",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 44.766,18"
+    },
+    {
+        "nome": "Faca do Assassino",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 45.334,06"
+    },
+    {
+        "nome": "Gema do Sol",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 46.248,77"
+    },
+    {
+        "nome": "Pergaminho do Destino",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 4.534,49"
+    },
+    {
+        "nome": "Cetro do Tempo",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 59.387,67"
+    },
+    {
+        "nome": "Medalhão da Sorte",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 48.857,89"
+    },
+    {
+        "nome": "Máscara da Fortuna",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 42.589,25"
+    },
+    {
+        "nome": "Espada da Luz",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 54.873,26"
+    },
+    {
+        "nome": "Machado da Escuridão",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 43.041,41"
+    },
+    {
+        "nome": "Arco da Esperança",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 45.540,49"
+    },
+    {
+        "nome": "Cajado da Cura",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 47.046,30"
+    },
+    {
+        "nome": "Escudo da Fé",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 49.772,51"
+    },
+    {
+        "nome": "Elmo da Honra",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 41.136,93"
+    },
+    {
+        "nome": "Peitoral da Bravura",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 54.502,62"
+    },
+    {
+        "nome": "Botas da Velocidade",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 40.973,21"
+    },
+    {
+        "nome": "Anel da Força",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 41.919,75"
+    },
+    {
+        "nome": "Amuleto da Sabedoria",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 54.485,06"
+    },
+    {
+        "nome": "Cinto da Resistência",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 50.468,29"
+    },
+    {
+        "nome": "Luvas da Precisão",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 39.305,55"
+    },
+    {
+        "nome": "Lança da Oportunidade",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 53.887,70"
+    },
+    {
+        "nome": "Maça da Força Bruta",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 45.013,87"
+    },
+    {
+        "nome": "Adaga da Traição",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 43.761,49"
+    },
+    {
+        "nome": "Faca da Fome",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 59.470,19"
+    },
+    {
+        "nome": "Gema da Sorte",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 42.418,61"
+    },
+    {
+        "nome": "Pergaminho da Vida",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 4.039,26"
+    },
+    {
+        "nome": "Cetro da Morte",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 51.563,51"
+    },
+    {
+        "nome": "Medalhão da Guerra",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 53.952,11"
+    },
+    {
+        "nome": "Máscara da Paz",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 43.769,67"
+    },
+    {
+        "nome": "Espada da Ordem",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 51.109,38"
+    },
+    {
+        "nome": "Machado do Caos",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 41.003,08"
+    },
+    {
+        "nome": "Arco do Conflito",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 46.981,66"
+    },
+    {
+        "nome": "Cajado da Paciência",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 49.278,94"
+    },
+    {
+        "nome": "Escudo da Paz",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 40.793,41"
+    },
+    {
+        "nome": "Elmo da Guerra",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 39.100,61"
+    },
+    {
+        "nome": "Peitoral do Conflito",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 58.012,73"
+    },
+    {
+        "nome": "Botas da Paciência",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 44.523,80"
+    },
+    {
+        "nome": "Anel da Paz",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 47.448,75"
+    },
+    {
+        "nome": "Amuleto da Guerra",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 58.886,86"
+    },
+    {
+        "nome": "Cinto do Conflito",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 46.695,07"
+    },
+    {
+        "nome": "Luvas da Paciência",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 42.201,00"
+    },
+    {
+        "nome": "Lança da Paz",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 58.791,90"
+    },
+    {
+        "nome": "Maça da Guerra",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 42.581,91"
+    },
+    {
+        "nome": "Adaga do Conflito",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 37.449,92"
+    },
+    {
+        "nome": "Faca da Paciência",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 51.061,91"
+    },
+    {
+        "nome": "Gema da Paz",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 42.495,67"
+    },
+    {
+        "nome": "Pergaminho da Guerra",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 4.151,36"
+    },
+    {
+        "nome": "Cetro do Conflito",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 58.546,43"
+    },
+    {
+        "nome": "Medalhão da Paciência",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 48.937,93"
+    },
+    {
+        "nome": "Máscara da Paz",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 43.721,84"
+    },
+    {
+        "nome": "Espada da Justiça",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 50.783,77"
+    },
+    {
+        "nome": "Machado da Injustiça",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 49.477,64"
+    },
+    {
+        "nome": "Arco da Verdade",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 39.446,22"
+    },
+    {
+        "nome": "Cajado da Mentira",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 47.470,03"
+    },
+    {
+        "nome": "Escudo da Honra",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 52.867,29"
+    },
+    {
+        "nome": "Elmo da Desonra",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 41.857,76"
+    },
+    {
+        "nome": "Peitoral da Glória",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 48.961,39"
+    },
+    {
+        "nome": "Botas da Vergonha",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 48.804,53"
+    },
+    {
+        "nome": "Anel da Coragem",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 45.568,49"
+    },
+    {
+        "nome": "Amuleto do Medo",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 51.527,49"
+    },
+    {
+        "nome": "Cinto da Força",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 48.603,71"
+    },
+    {
+        "nome": "Luvas da Fraqueza",
+        "custo_de_sorte": 6,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 40.808,97"
+    },
+    {
+        "nome": "Lança da Proteção",
+        "custo_de_sorte": 8,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 46.548,88"
+    },
+    {
+        "nome": "Maça da Ameaça",
+        "custo_de_sorte": 7,
+        "raridade": "Raro",
+        "cor": "azul",
+        "descricao": "Um item de raridade Raro com grande potencial.",
+        "custo_do_item": "R$ 49.293,91"
+    },
+    {
+        "nome": "Lâmina de Fogo Gelado",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.595.076,13"
+    },
+    {
+        "nome": "Manto da Invisibilidade Parcial",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.009.590,12"
+    },
+    {
+        "nome": "Coroa do Rei Esquecido",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.708.200,32"
+    },
+    {
+        "nome": "Cajado do Domínio da Terra",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.509.794,20"
+    },
+    {
+        "nome": "Armadura da Fúria do Dragão",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.820.657,15"
+    },
+    {
+        "nome": "Arco do Crepúsculo Eterno",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.726.786,55"
+    },
+    {
+        "nome": "Cinto do Titã Encolhido",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.209.202,91"
+    },
+    {
+        "nome": "Luvas da Destreza Perfeita",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.031.562,82"
+    },
+    {
+        "nome": "Elmo da Visão Profunda",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.025.436,74"
+    },
+    {
+        "nome": "Martelo da Forja de Pedra",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.915.060,96"
+    },
+    {
+        "nome": "Espada da Criação de Mundos",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.636.001,09"
+    },
+    {
+        "nome": "Peitoral do Herói Caído",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.698.186,11"
+    },
+    {
+        "nome": "Escudo do Anjo da Guarda",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.230.171,42"
+    },
+    {
+        "nome": "Lança do Grito do Dragão",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.791.787,37"
+    },
+    {
+        "nome": "Maça do Poder da Terra",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.637.340,09"
+    },
+    {
+        "nome": "Adaga da Lua",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.913.275,39"
+    },
+    {
+        "nome": "Faca da Estrela Cadente",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.782.766,98"
+    },
+    {
+        "nome": "Gema da Luz",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.388.675,97"
+    },
+    {
+        "nome": "Pergaminho da Criação",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 461.485,45"
+    },
+    {
+        "nome": "Cetro da Aniquilação",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.123.893,29"
+    },
+    {
+        "nome": "Medalhão da Vida Eterna",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.672.778,58"
+    },
+    {
+        "nome": "Máscara da Verdade",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.417.806,22"
+    },
+    {
+        "nome": "Espada da Fênix Renascida",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.372.920,15"
+    },
+    {
+        "nome": "Machado do Apocalipse",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.153.816,12"
+    },
+    {
+        "nome": "Arco do Desespero",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.747.195,37"
+    },
+    {
+        "nome": "Cajado do Abismo",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.544.643,28"
+    },
+    {
+        "nome": "Escudo do Guardião das Eras",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.812.170,68"
+    },
+    {
+        "nome": "Elmo do Cavaleiro Negro",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.273.777,16"
+    },
+    {
+        "nome": "Peitoral da Legião",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 6.068.967,32"
+    },
+    {
+        "nome": "Botas do Vazio",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.347.019,54"
+    },
+    {
+        "nome": "Anel da Imortalidade",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.361.277,22"
+    },
+    {
+        "nome": "Amuleto da Resiliência",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.167.877,29"
+    },
+    {
+        "nome": "Cinto da Resistência Infinita",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.645.854,14"
+    },
+    {
+        "nome": "Luvas do Mestre das Sombras",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.504.784,80"
+    },
+    {
+        "nome": "Lança da Devastação",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.716.498,75"
+    },
+    {
+        "nome": "Maça do Destino",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.339.240,63"
+    },
+    {
+        "nome": "Adaga do Silêncio Mortal",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 5.620.218,56"
+    },
+    {
+        "nome": "Faca da Visão Noturna",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.688.893,11"
+    },
+    {
+        "nome": "Gema da Sombra",
+        "custo_de_sorte": 10,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 4.988.443,75"
+    },
+    {
+        "nome": "Pergaminho do Conhecimento Proibido",
+        "custo_de_sorte": 9,
+        "raridade": "Épico",
+        "cor": "roxa",
+        "descricao": "Um item de raridade Épico com grande potencial.",
+        "custo_do_item": "R$ 510.805,53"
+    },
+    {
+        "nome": "Lâmina do Julgamento de Aether",
+        "custo_de_sorte": 10,
+        "raridade": "Lendário",
+        "cor": "dourado",
+        "descricao": "Um item de raridade Lendário com grande potencial.",
+        "custo_do_item": "R$ 24.087.800.928,21"
+    },
+    {
+        "nome": "Cetro da Criação de Estrelas",
+        "custo_de_sorte": 10,
+        "raridade": "Lendário",
+        "cor": "dourado",
+        "descricao": "Um item de raridade Lendário com grande potencial.",
+        "custo_do_item": "R$ 25.875.614.124,98"
+    },
+    {
+        "nome": "Armadura do Eclipse",
+        "custo_de_sorte": 10,
+        "raridade": "Lendário",
+        "cor": "dourado",
+        "descricao": "Um item de raridade Lendário com grande potencial.",
+        "custo_do_item": "R$ 28.755.419.426,40"
+    },
+    {
+        "nome": "Anel da Eternidade Despertada",
+        "custo_de_sorte": 10,
+        "raridade": "Lendário",
+        "cor": "dourado",
+        "descricao": "Um item de raridade Lendário com grande potencial.",
+        "custo_do_item": "R$ 23.319.309.980,57"
+    },
+    {
+        "nome": "Cajado da Tempestade Primordial",
+        "custo_de_sorte": 10,
+        "raridade": "Lendário",
+        "cor": "dourado",
+        "descricao": "Um item de raridade Lendário com grande potencial.",
+        "custo_do_item": "R$ 25.288.020.079,19"
+    },
+    {
+        "nome": "Arco do Destino Sombrio",
+        "custo_de_sorte": 10,
+        "raridade": "Lendário",
+        "cor": "dourado",
+        "descricao": "Um item de raridade Lendário com grande potencial.",
+        "custo_do_item": "R$ 26.534.039.248,09"
+    },
+    {
+        "nome": "Escudo do Guardião das Eras",
+        "custo_de_sorte": 10,
+        "raridade": "Lendário",
+        "cor": "dourado",
+        "descricao": "Um item de raridade Lendário com grande potencial.",
+        "custo_do_item": "R$ 27.755.981.557,87"
+    },
+    {
+        "nome": "Coroa do Soberano Celestial",
+        "custo_de_sorte": 10,
+        "raridade": "Lendário",
+        "cor": "dourado",
+        "descricao": "Um item de raridade Lendário com grande potencial.",
+        "custo_do_item": "R$ 25.156.228.918,71"
+    },
+    {
+        "nome": "Martelo do Ragnarok",
+        "custo_de_sorte": 10,
+        "raridade": "Lendário",
+        "cor": "dourado",
+        "descricao": "Um item de raridade Lendário com grande potencial.",
+        "custo_do_item": "R$ 25.714.533.327,36"
+    },
+    {
+        "nome": "Adaga da Lua Carmesim",
+        "custo_de_sorte": 10,
+        "raridade": "Lendário",
+        "cor": "dourado",
+        "descricao": "Um item de raridade Lendário com grande potencial.",
+        "custo_do_item": "R$ 27.349.645.471,49"
+    }
 ]

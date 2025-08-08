@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de RPG Mágica</title>
+    <title>Loja da AEGIS</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='loja.png') }}">
+
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #2c2f33; color: #ffffff; display: flex; flex-direction: column; align-items: center; margin: 0; padding: 20px; }
         .container { width: 100%; max-width: 800px; }
@@ -15,11 +17,21 @@
         button:hover { background-color: #5b6eae; }
         .resultado-dado { text-align: center; margin-bottom: 20px; font-size: 1.2em; background-color: #23272a; padding: 15px; border-radius: 8px; }
         .loja { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
-        .item-card { background-color: #23272a; border: 1px solid #4f545c; border-radius: 8px; padding: 15px; display: flex; flex-direction: column; }
-        .item-card h3 { margin: 0 0 10px 0; color: #7289da; }
+        .item-card { background-color: #23272a; border-left: 5px solid #4f545c; border-radius: 8px; padding: 15px; display: flex; flex-direction: column; }
+        .item-card h3 { margin: 0 0 10px 0; }
         .item-card p { margin: 5px 0; font-size: 14px; color: #c8c8c8; flex-grow: 1; }
-        .item-card .custo { font-weight: bold; color: #fab937; }
-        .item-card .sorte { font-style: italic; color: #43b581; }
+        .item-card .custo { font-weight: bold; font-size: 1.1em; color: #fab937; }
+        
+        /* Cores de Raridade */
+        .raridade-comum { border-left-color: #9d9d9d; }
+        .raridade-comum h3 { color: #9d9d9d; }
+        .raridade-raro { border-left-color: #007bff; }
+        .raridade-raro h3 { color: #007bff; }
+        .raridade-épico { border-left-color: #8a2be2; }
+        .raridade-épico h3 { color: #8a2be2; }
+        .raridade-lendário { border-left-color: #ffc107; }
+        .raridade-lendário h3 { color: #ffc107; }
+
         .mensagem-vazia { text-align: center; padding: 40px; background-color: #23272a; border-radius: 8px; }
     </style>
 </head>
@@ -48,18 +60,17 @@
             <h2>Itens disponíveis para você:</h2>
             <div class="loja">
                 {% for item in items %}
-                <div class="item-card">
+                <div class="item-card raridade-{{ item.raridade|lower }}">
                     <h3>{{ item.nome }}</h3>
                     <p>{{ item.descricao }}</p>
-                    <p class="custo">Preço: {{ item.custo_do_item }}</p>
-                    <p class="sorte">Custo de Sorte: {{ item.custo_de_sorte }}</p>
+                    <p class="custo">{{ item.custo_do_item }}</p>
                 </div>
                 {% endfor %}
             </div>
         {% else %}
             {% if d20_roll is not none and not error_message %}
             <div class="mensagem-vazia">
-                <p>O vendedor Rogério coça a cabeça. "Sua sorte foi de {{ sorte_total }}, mas parece que não tenho nada de especial para você hoje."</p>
+                <p>O Vendedor Rogério coça a cabeça. "Sua sorte foi de {{ sorte_total }}, mas parece que não tenho nada de especial para você hoje."</p>
             </div>
             {% endif %}
         {% endif %}
